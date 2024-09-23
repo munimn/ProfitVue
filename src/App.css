@@ -1,0 +1,101 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.forecasts-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* or 'center' if you want them vertically aligned */
+}
+
+.forecasts-container>div {
+  flex: 1;
+  /* This ensures that each child takes equal width */
+}
+
+.dashboard {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.dashboard-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #516578;
+  border-radius: 8px;
+}
+
+.dashboard-section h2 {
+  margin-bottom: 15px;
+}
+
+.dashboard-section div p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.navBarLink {
+  margin-right: 10px;
+  /* Adjust spacing between links */
+  color: rgb(252, 252, 252);
+  /* Font color */
+  text-decoration: none;
+  /* Remove underline */
+  font-size: 18px;
+  /* Adjust font size */
+}
+
+nav {
+  padding: 10px 20px;
+  /* Adjust as needed */
+  background-color: #51aced;
+  /* Background color of the navbar */
+}
+
+.navBarLink:hover {
+  color: #0b09ac;
+  /* Color on hover */
+}
